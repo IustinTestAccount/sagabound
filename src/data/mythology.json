@@ -1,0 +1,641 @@
+{
+  "imageCredits": [
+    {
+      "id": "odin-doepler",
+      "title": "Odin in der Halle Wolsungs",
+      "author": "Emil Doepler",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odin_in_der_Halle_Wolsungs_by_Emil_Doepler.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Odin_in_der_Halle_Wolsungs_by_Emil_Doepler.jpg"
+    },
+    {
+      "id": "thor-winge",
+      "title": "Tor's Fight with the Giants",
+      "author": "Soerfm after Mårten Eskil Winge",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project-2.jpg",
+      "license": "CC BY-SA 4.0 / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project-2.jpg"
+    },
+    {
+      "id": "loki-idun",
+      "title": "Loki and Idun",
+      "author": "John Bauer",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loki_and_Idun.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Loki_and_Idun.jpg"
+    },
+    {
+      "id": "freyja-penrose",
+      "title": "Freyja and the Necklace",
+      "author": "James Doyle Penrose",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freyja_and_the_Necklace_by_James_Doyle_Penrose,_1890.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Freyja_and_the_Necklace_by_James_Doyle_Penrose,_1890.jpg"
+    },
+    {
+      "id": "nine-worlds-hall",
+      "title": "Norse Nine Worlds",
+      "author": "Manly P. Hall",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norse_Nine_Worlds.jpg",
+      "license": "Public domain in the United States / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Norse_Nine_Worlds.jpg"
+    },
+    {
+      "id": "walhall-doepler",
+      "title": "Walhall",
+      "author": "Emil Doepler",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walhall_by_Emil_Doepler.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walhall_by_Emil_Doepler.jpg"
+    },
+    {
+      "id": "hel-gehrts",
+      "title": "Hel",
+      "author": "Johannes Gehrts",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hel-Johannes_Gehrts.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hel-Johannes_Gehrts.jpg"
+    },
+    {
+      "id": "yggdrasil-oluf",
+      "title": "Yggdrasil",
+      "author": "Oluf Olufsen Bagge",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yggdrasil.jpg",
+      "license": "Public domain / Wikimedia Commons file page",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Yggdrasil.jpg"
+    }
+  ],
+  "gods": [
+    {
+      "id": "odin",
+      "name": "Odin",
+      "title": "The One-Eyed Wanderer",
+      "category": "god",
+      "type": "Aesir",
+      "realmId": "asgard",
+      "description": "Odin is the seeker of runes, battle wisdom, prophecy, and hidden knowledge. His discoveries are powerful, but rarely without loss.",
+      "rating": 4.9,
+      "dangerLevel": 9,
+      "discovered": true,
+      "tags": ["runes", "wisdom", "war"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Odin%20in%20der%20Halle%20Wolsungs%20by%20Emil%20Doepler.jpg?width=900",
+        "alt": "Odin seated in a mythic hall",
+        "creditId": "odin-doepler"
+      }
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "title": "Breaker of Giants",
+      "category": "god",
+      "type": "Aesir",
+      "realmId": "asgard",
+      "description": "Thor guards the world of men with thunder, force, and Mjolnir. His stories are direct, violent, and deeply tied to the fragile border between Midgard and Jotunheim.",
+      "rating": 4.7,
+      "dangerLevel": 8,
+      "discovered": true,
+      "tags": ["thunder", "giants", "protection"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A5rten%20Eskil%20Winge%20-%20Tor%27s%20Fight%20with%20the%20Giants%20-%20Google%20Art%20Project-2.jpg?width=900",
+        "alt": "Thor fighting giants with Mjolnir",
+        "creditId": "thor-winge"
+      }
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "title": "The Bound Trickster",
+      "category": "god",
+      "type": "Jotunn-blooded Aesir companion",
+      "realmId": "jotunheim",
+      "description": "Loki reshapes every path he enters. His fragments reveal bargains, thefts, transformations, and the first signs of Ragnarok.",
+      "rating": 4.8,
+      "dangerLevel": 10,
+      "discovered": true,
+      "tags": ["trickery", "shapeshifting", "ragnarok"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loki%20and%20Idun.jpg?width=900",
+        "alt": "Loki beside Idun in a Norse illustration",
+        "creditId": "loki-idun"
+      }
+    },
+    {
+      "id": "freyja",
+      "name": "Freyja",
+      "title": "Keeper of Seidr",
+      "category": "god",
+      "type": "Vanir",
+      "realmId": "vanaheim",
+      "description": "Freyja carries beauty, sorcery, desire, and battlefield selection. Her discoveries unlock seidr fragments and the cost of seeing more than mortals should.",
+      "rating": 4.6,
+      "dangerLevel": 7,
+      "discovered": true,
+      "tags": ["seidr", "gold", "battle"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Freyja%20and%20the%20Necklace%20by%20James%20Doyle%20Penrose%2C%201890.jpg?width=900",
+        "alt": "Freyja receiving the necklace Brisingamen",
+        "creditId": "freyja-penrose"
+      }
+    },
+    {
+      "id": "tyr",
+      "name": "Tyr",
+      "title": "The One-Handed Oathkeeper",
+      "category": "god",
+      "type": "Aesir",
+      "realmId": "asgard",
+      "description": "Tyr stands at the threshold between courage and sacrifice. His path records the binding of Fenrir and the price of lawful oaths.",
+      "rating": 4.3,
+      "dangerLevel": 7,
+      "discovered": false,
+      "tags": ["oath", "law", "sacrifice"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IB%20299%204to%20Tyr.jpg?width=900",
+        "alt": "Tyr from an Icelandic manuscript",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "heimdall",
+      "name": "Heimdall",
+      "title": "Watcher of Bifrost",
+      "category": "god",
+      "type": "Aesir",
+      "realmId": "asgard",
+      "description": "Heimdall watches the bridge between worlds and listens for the beginning of the end. His fragments track vigilance, borders, and Gjallarhorn.",
+      "rating": 4.1,
+      "dangerLevel": 6,
+      "discovered": false,
+      "tags": ["watcher", "bifrost", "horn"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heimdallr%20and%20valkyries%20by%20Fr%C3%B8lich.jpg?width=900",
+        "alt": "Heimdallr with valkyries",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "baldr",
+      "name": "Baldr",
+      "title": "The Bright God",
+      "category": "god",
+      "type": "Aesir",
+      "realmId": "helheim",
+      "description": "Baldr marks the wound in the world. His death moves the library toward Helheim and makes every prophecy less avoidable.",
+      "rating": 4.5,
+      "dangerLevel": 5,
+      "discovered": false,
+      "tags": ["light", "dreams", "death"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yggdrasil.jpg?width=900",
+        "alt": "Yggdrasil world tree engraving",
+        "creditId": "yggdrasil-oluf"
+      }
+    }
+  ],
+  "realms": [
+    {
+      "id": "asgard",
+      "name": "Asgard",
+      "title": "Fortress of the Aesir",
+      "category": "realm",
+      "type": "celestial stronghold",
+      "realmId": "asgard",
+      "description": "A high realm of halls, oaths, war councils, and Bifrost light. Many central god fragments begin here.",
+      "rating": 4.7,
+      "dangerLevel": 6,
+      "discovered": true,
+      "tags": ["aesir", "bifrost", "halls"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walhall%20by%20Emil%20Doepler.jpg?width=900",
+        "alt": "Valhalla hall illustration",
+        "creditId": "walhall-doepler"
+      }
+    },
+    {
+      "id": "midgard",
+      "name": "Midgard",
+      "title": "The Ringed Human World",
+      "category": "realm",
+      "type": "mortal world",
+      "realmId": "midgard",
+      "description": "The world of men, circled by the sea and threatened by forces from above, below, and beyond the borderlands.",
+      "rating": 4.2,
+      "dangerLevel": 5,
+      "discovered": true,
+      "tags": ["mortals", "sea", "world-serpent"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norse%20Nine%20Worlds.jpg?width=900",
+        "alt": "Diagram of the Norse nine worlds",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "jotunheim",
+      "name": "Jotunheim",
+      "title": "Borderland of Giants",
+      "category": "realm",
+      "type": "giant wilderness",
+      "realmId": "jotunheim",
+      "description": "A hostile expanse of stone, frost, challenge, and old bloodlines. Thor and Loki both pull the explorer into its dangerous edge.",
+      "rating": 4.4,
+      "dangerLevel": 9,
+      "discovered": true,
+      "tags": ["giants", "frost", "trials"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norse%20Nine%20Worlds.jpg?width=900",
+        "alt": "Norse cosmology map used as realm reference",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "helheim",
+      "name": "Helheim",
+      "title": "The Cold Hall Below",
+      "category": "realm",
+      "type": "underworld",
+      "realmId": "helheim",
+      "description": "A low, silent realm for the dead outside heroic halls. Its discoveries are sparse, severe, and bound to Baldr's fate.",
+      "rating": 4.5,
+      "dangerLevel": 8,
+      "discovered": true,
+      "tags": ["death", "silence", "baldr"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hel-Johannes%20Gehrts.jpg?width=900",
+        "alt": "Hel seated in the underworld",
+        "creditId": "hel-gehrts"
+      }
+    },
+    {
+      "id": "vanaheim",
+      "name": "Vanaheim",
+      "title": "Green Court of the Vanir",
+      "category": "realm",
+      "type": "vanir homeland",
+      "realmId": "vanaheim",
+      "description": "A realm of older fertility, wealth, seidr, and fragile peace after divine war.",
+      "rating": 4.0,
+      "dangerLevel": 4,
+      "discovered": false,
+      "tags": ["vanir", "seidr", "peace"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yggdrasil.jpg?width=900",
+        "alt": "Yggdrasil engraving used as Vanaheim placeholder",
+        "creditId": "yggdrasil-oluf"
+      }
+    }
+  ],
+  "creatures": [
+    {
+      "id": "fenrir",
+      "name": "Fenrir",
+      "title": "Wolf of the Final Breaking",
+      "category": "creature",
+      "type": "monstrous wolf",
+      "realmId": "asgard",
+      "description": "Fenrir is bound by a chain made from impossibilities. His discovery path exposes oath failure, fear, and the future death of Odin.",
+      "rating": 4.9,
+      "dangerLevel": 10,
+      "discovered": true,
+      "tags": ["wolf", "binding", "ragnarok"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyr%20and%20Fenrir%20by%20John%20Bauer%201911.jpg?width=900",
+        "alt": "Tyr and Fenrir illustration",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "jormungandr",
+      "name": "Jormungandr",
+      "title": "The World Serpent",
+      "category": "creature",
+      "type": "cosmic serpent",
+      "realmId": "midgard",
+      "description": "Jormungandr circles Midgard and turns the sea into a boundary. Its fragments connect Thor, poison, and the final battle.",
+      "rating": 4.8,
+      "dangerLevel": 10,
+      "discovered": false,
+      "tags": ["serpent", "ocean", "thor"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norse%20Nine%20Worlds.jpg?width=900",
+        "alt": "Norse cosmology map used as Jormungandr placeholder",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "sleipnir",
+      "name": "Sleipnir",
+      "title": "Eight-Legged Wayfinder",
+      "category": "creature",
+      "type": "mythic horse",
+      "realmId": "asgard",
+      "description": "Sleipnir moves between realms and carries Odin through thresholds no ordinary rider can cross.",
+      "rating": 4.4,
+      "dangerLevel": 4,
+      "discovered": true,
+      "tags": ["horse", "travel", "odin"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Odin%20in%20der%20Halle%20Wolsungs%20by%20Emil%20Doepler.jpg?width=900",
+        "alt": "Odin image used for Sleipnir context",
+        "creditId": "odin-doepler"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "mjolnir",
+      "name": "Mjolnir",
+      "title": "Hammer of Returning Thunder",
+      "category": "artifact",
+      "type": "weapon",
+      "realmId": "asgard",
+      "description": "Mjolnir protects the human world, breaks giant strength, and returns to Thor's hand as a symbol of force disciplined by duty.",
+      "rating": 4.9,
+      "dangerLevel": 8,
+      "discovered": true,
+      "tags": ["hammer", "thunder", "weapon"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A5rten%20Eskil%20Winge%20-%20Tor%27s%20Fight%20with%20the%20Giants%20-%20Google%20Art%20Project-2.jpg?width=900",
+        "alt": "Thor image used for Mjolnir context",
+        "creditId": "thor-winge"
+      }
+    },
+    {
+      "id": "gungnir",
+      "name": "Gungnir",
+      "title": "Spear That Does Not Miss",
+      "category": "artifact",
+      "type": "weapon",
+      "realmId": "asgard",
+      "description": "Gungnir is tied to Odin's authority, war-binding, and the terrible certainty of vows made before battle.",
+      "rating": 4.5,
+      "dangerLevel": 7,
+      "discovered": false,
+      "tags": ["spear", "odin", "oath"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Odin%20in%20der%20Halle%20Wolsungs%20by%20Emil%20Doepler.jpg?width=900",
+        "alt": "Odin image used for Gungnir context",
+        "creditId": "odin-doepler"
+      }
+    },
+    {
+      "id": "draupnir",
+      "name": "Draupnir",
+      "title": "Ring of Returning Gold",
+      "category": "artifact",
+      "type": "ring",
+      "realmId": "asgard",
+      "description": "Draupnir multiplies itself and links wealth, mourning, and the strange economy of divine gifts.",
+      "rating": 4.2,
+      "dangerLevel": 3,
+      "discovered": false,
+      "tags": ["ring", "gold", "gift"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Freyja%20and%20the%20Necklace%20by%20James%20Doyle%20Penrose%2C%201890.jpg?width=900",
+        "alt": "Freyja image used for gold artifact context",
+        "creditId": "freyja-penrose"
+      }
+    },
+    {
+      "id": "yggdrasil",
+      "name": "Yggdrasil",
+      "title": "Tree of Nine Worlds",
+      "category": "artifact",
+      "type": "cosmic axis",
+      "realmId": "midgard",
+      "description": "Yggdrasil holds the worlds in relation and turns exploration into a map of roots, wells, halls, and hidden costs.",
+      "rating": 4.8,
+      "dangerLevel": 6,
+      "discovered": true,
+      "tags": ["tree", "worlds", "cosmology"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yggdrasil.jpg?width=900",
+        "alt": "Yggdrasil world tree engraving",
+        "creditId": "yggdrasil-oluf"
+      }
+    }
+  ],
+  "myths": [
+    {
+      "id": "ragnarok",
+      "name": "Ragnarok",
+      "title": "The Twilight Sequence",
+      "category": "myth",
+      "type": "prophecy",
+      "realmId": "asgard",
+      "description": "A chain of losses, betrayals, battles, and rebirth. The Ragnarok path becomes clearer as Loki, Fenrir, Jormungandr, and Odin fragments are discovered.",
+      "rating": 5,
+      "dangerLevel": 10,
+      "discovered": true,
+      "tags": ["end", "war", "rebirth"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20gehrts%20ragnarok%20mindre.JPG?width=900",
+        "alt": "Ragnarok illustration",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "binding-fenrir",
+      "name": "The Binding of Fenrir",
+      "title": "A Chain Made of Impossible Things",
+      "category": "myth",
+      "type": "sacrifice myth",
+      "realmId": "asgard",
+      "description": "The gods attempt to bind what they fear. Tyr's hand becomes the cost of a temporary order.",
+      "rating": 4.7,
+      "dangerLevel": 9,
+      "discovered": true,
+      "tags": ["fenrir", "tyr", "gleipnir"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyr%20and%20Fenrir%20by%20John%20Bauer%201911.jpg?width=900",
+        "alt": "Tyr and Fenrir illustration",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "theft-of-mjolnir",
+      "name": "The Theft of Mjolnir",
+      "title": "A Hammer Hidden in Giant Country",
+      "category": "myth",
+      "type": "comic conflict",
+      "realmId": "jotunheim",
+      "description": "Thor's missing hammer pulls the gods into disguise, negotiation, and violent recovery.",
+      "rating": 4.4,
+      "dangerLevel": 7,
+      "discovered": false,
+      "tags": ["thor", "loki", "giants"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A5rten%20Eskil%20Winge%20-%20Tor%27s%20Fight%20with%20the%20Giants%20-%20Google%20Art%20Project-2.jpg?width=900",
+        "alt": "Thor fighting giants",
+        "creditId": "thor-winge"
+      }
+    },
+    {
+      "id": "death-of-baldr",
+      "name": "The Death of Baldr",
+      "title": "The Mistletoe Omen",
+      "category": "myth",
+      "type": "tragedy",
+      "realmId": "helheim",
+      "description": "Baldr's death turns a bright court into an omen machine. Every attempt to reverse it reveals how fragile divine order has become.",
+      "rating": 4.8,
+      "dangerLevel": 8,
+      "discovered": false,
+      "tags": ["baldr", "hel", "loki"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hel-Johannes%20Gehrts.jpg?width=900",
+        "alt": "Hel seated in the underworld",
+        "creditId": "hel-gehrts"
+      }
+    }
+  ],
+  "sagaFragments": [
+    {
+      "id": "fragment-rune-price",
+      "title": "Runes Do Not Answer Twice",
+      "category": "fragment",
+      "type": "rune note",
+      "realmId": "asgard",
+      "description": "The first mark gives direction. The second mark demands memory. The third takes a name from the speaker.",
+      "rating": 4.6,
+      "dangerLevel": 6,
+      "discovered": true,
+      "tags": ["runes", "cost", "knowledge"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yggdrasil.jpg?width=900",
+        "alt": "Yggdrasil engraving as rune fragment image",
+        "creditId": "yggdrasil-oluf"
+      }
+    },
+    {
+      "id": "fragment-frost-map",
+      "title": "Frost Map of the Giant Road",
+      "category": "fragment",
+      "type": "map shard",
+      "realmId": "jotunheim",
+      "description": "A route appears only when breath freezes over the vellum. The path bends away from warm hands.",
+      "rating": 4.1,
+      "dangerLevel": 7,
+      "discovered": true,
+      "tags": ["map", "frost", "giants"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norse%20Nine%20Worlds.jpg?width=900",
+        "alt": "Norse nine worlds map as frost map image",
+        "creditId": "nine-worlds-hall"
+      }
+    },
+    {
+      "id": "fragment-hel-gate",
+      "title": "Gate Below the Root",
+      "category": "fragment",
+      "type": "underworld trace",
+      "realmId": "helheim",
+      "description": "No hinge moves. No guard speaks. The gate opens only when the living stop bargaining with the dead.",
+      "rating": 4.5,
+      "dangerLevel": 8,
+      "discovered": false,
+      "tags": ["hel", "root", "dead"],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hel-Johannes%20Gehrts.jpg?width=900",
+        "alt": "Helheim image for underworld fragment",
+        "creditId": "hel-gehrts"
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-odin-runes",
+      "title": "Follow Odin's rune path",
+      "category": "recommendation",
+      "type": "next discovery",
+      "description": "Recommended because the explorer has already discovered Yggdrasil and Ragnarok. This path deepens rune and prophecy content.",
+      "targetEntryId": "odin",
+      "requiredTags": ["runes", "knowledge"],
+      "minRating": 4.5,
+      "minCompletion": 35
+    },
+    {
+      "id": "rec-fenrir-binding",
+      "title": "Complete the Fenrir sequence",
+      "category": "recommendation",
+      "type": "high danger sequence",
+      "description": "Recommended for explorers who have discovered Fenrir or Tyr-related fragments and can handle danger level 9 content.",
+      "targetEntryId": "binding-fenrir",
+      "requiredTags": ["fenrir", "oath"],
+      "minRating": 4.3,
+      "minCompletion": 40
+    },
+    {
+      "id": "rec-helheim-baldr",
+      "title": "Open the Baldr-Helheim trail",
+      "category": "recommendation",
+      "type": "realm expansion",
+      "description": "Recommended after Helheim becomes visible in the realm library. This unlocks tragic saga fragments and lower-world entries.",
+      "targetEntryId": "death-of-baldr",
+      "requiredTags": ["hel", "baldr"],
+      "minRating": 4.1,
+      "minCompletion": 30
+    }
+  ],
+  "userDiscoveries": [
+    {
+      "id": "disc-001",
+      "entryId": "odin",
+      "status": "saved",
+      "notes": "Marked as primary wisdom path.",
+      "lastOpened": "2026-06-18T20:10:00.000Z"
+    },
+    {
+      "id": "disc-002",
+      "entryId": "ragnarok",
+      "status": "studied",
+      "notes": "Connected with Fenrir and Jormungandr.",
+      "lastOpened": "2026-06-19T18:45:00.000Z"
+    },
+    {
+      "id": "disc-003",
+      "entryId": "asgard",
+      "status": "saved",
+      "notes": "Realm hub opened for Aesir paths.",
+      "lastOpened": "2026-06-20T11:20:00.000Z"
+    },
+    {
+      "id": "disc-004",
+      "entryId": "fragment-frost-map",
+      "status": "new",
+      "notes": "Possible Jotunheim route fragment.",
+      "lastOpened": "2026-06-20T23:05:00.000Z"
+    }
+  ],
+  "explorationActivity": [
+    {
+      "id": "activity-001",
+      "actor": "Iustin Mitu",
+      "action": "saved the Odin rune path",
+      "entryId": "odin",
+      "timestamp": "2026-06-20T20:30:00.000Z"
+    },
+    {
+      "id": "activity-002",
+      "actor": "Archive Sentinel",
+      "action": "recommended the Fenrir sequence",
+      "entryId": "fenrir",
+      "timestamp": "2026-06-20T21:12:00.000Z"
+    },
+    {
+      "id": "activity-003",
+      "actor": "Realm Index",
+      "action": "opened Helheim as a visible realm",
+      "entryId": "helheim",
+      "timestamp": "2026-06-21T08:00:00.000Z"
+    }
+  ]
+}

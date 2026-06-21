@@ -1,0 +1,32 @@
+{
+  "name": "sagabound",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint \"src/**/*.ts\" \"scripts/**/*.mjs\" \"vite.config.ts\"",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "validate:data": "node scripts/validate-data.mjs",
+    "ci": "npm run lint && npm run typecheck && npm run test && npm run validate:data && npm run build"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.1.4",
+    "svelte": "^5.39.4",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@types/node": "^24.3.1",
+    "eslint": "^9.35.0",
+    "jsdom": "^27.0.0",
+    "prettier": "^3.6.2",
+    "svelte-check": "^4.3.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.43.0",
+    "vitest": "^3.2.4"
+  }
+}
